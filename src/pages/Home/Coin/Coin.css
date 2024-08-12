@@ -1,0 +1,98 @@
+/* Coin.css */
+.coin-page {
+    padding: 20px;
+    color: #d9d9d9;
+  }
+  
+  .coin-details {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .coin-details img {
+    max-width: 100px;
+    margin-top: 20px;
+  }
+  
+  .coin-details h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .coin-details p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ccc;
+  }
+  
+  .crypto-converter-container {
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    background-color:linear-gradient(#000000, #0b1628, #000000), 
+    repeating-linear-gradient(-45deg, #000 0px, #000 5px, #333 6px, #333 11px, #000 12px);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(69 81 149 / 10%);
+  }
+  
+  .crypto-converter-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .crypto-converter-container label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .crypto-converter-container input,
+  .crypto-converter-container select {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .converted-amount {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .exchange-rate {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  @media (max-width: 480px) {
+    .crypto-converter-container {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    .crypto-converter-container h2 {
+      font-size: 20px;
+    }
+  
+    .crypto-converter-container input,
+    .crypto-converter-container select {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .converted-amount {
+      font-size: 16px;
+    }
+  
+    .exchange-rate {
+      font-size: 12px;
+    }
+  }
+  

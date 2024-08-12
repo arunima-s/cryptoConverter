@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+  color: white;
+  border-bottom: 2px solid #3c3c3c;
+}
+.navbar ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.navbar li {
+  cursor: pointer;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: max(1vw, 12px);
+}
+.navbar select {
+  padding: 5px 8px;
+  border-radius: 8px;
+  border: 1.2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+.navbar option {
+  background-color: #050517;
+  color: white;
+  cursor: pointer;
+}
