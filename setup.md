@@ -42,10 +42,10 @@ If you encounter a CORS issue with a status message 403 when using the Heroku pr
    
     Open your web browser and go to:
      ```bash
-    https://cors-anywhere.herokuapp.com
+    https://cors-anywhere.herokuapp.com  
     
 
-2. **Request Temporary Access**
+2. **Request Temporary Access**   
    
     Open your web browser and go to:
    
