@@ -14,7 +14,7 @@ Ensure you have the following installed on your machine:
 1. **Clone the Repository**  
    Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/arunima-s/cryptoConverter
 
 2. **Navigate to the Project Directory**
 
@@ -52,4 +52,3 @@ If you encounter a CORS issue with a status message 403 when using the Heroku pr
    On the page, click the button labeled "Request temporary access to the demo server". This grants temporary access to the proxy server, allowing your API calls to bypass CORS restrictions.
 
 
-    
