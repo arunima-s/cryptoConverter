@@ -23,3 +23,8 @@ This project is a cryptocurrency tracking and converter application built with R
 1. Clone the repository:
    ```bash
    git clone https://github.com/arunima-s/cryptoConverter
+
+
+[Installation details](https://github.com/arunima-s/cryptoConverter/blob/main/setup.md)
+
+[Task Details](https://github.com/arunima-s/cryptoConverter/blob/main/todo.md)
