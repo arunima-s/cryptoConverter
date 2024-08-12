@@ -42,16 +42,26 @@ const Coin = () => {
               'X-CMC_PRO_API_KEY': apiKey,
             },
             params: {
-              amount: amount,
+              amount: 1, // Get the rate for 1 unit of fromCurrency
               symbol: fromCurrency,
               convert: toCurrency,
             },
           }
         );
 
-        const rate = response.data.data.quote[toCurrency].price;
-        setRate(rate);
-        setConvertedAmount(amount * rate);
+        // Handle multiple entries and select the correct one
+        const data = response.data.data;
+        const correctEntry = data.find(
+          (entry) => entry.symbol === fromCurrency && entry.quote[toCurrency]
+        );
+
+        if (correctEntry) {
+          const rate = correctEntry.quote[toCurrency].price;
+          setRate(rate);
+          setConvertedAmount(amount * rate); // Calculate converted amount using the fetched rate
+        } else {
+          console.error("Correct entry not found for conversion");
+        }
       } catch (error) {
         console.error("Error fetching the conversion rate", error);
       }
@@ -130,3 +140,4 @@ const Coin = () => {
 };
 
 export default Coin;
+
